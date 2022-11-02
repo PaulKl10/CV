@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h1>Me contacter</h1>
+
+    <form action="">
+        <!-- type: text/ submit/ checkbox/ radio / color / number / date / tel / reset / url / search / time / email / password / etc.. -->
+        <input type="text" id="nom" name="nom" placeholder="Nom" required minlength="2"> <br>
+        <input type="text" id="prenom" name="prenom" placeholder="Prenom"> <br>
+        <input type="email" id="email" name="email" placeholder="Email" pattern="[^@ \t\r\n]+@[^@ \t\r\n]+\.[^@ \t\r\n]+"> <br>
+        <input type="text" id="numero" name="numero" placeholder="Numero"> <br>
+        <select name="objet" id="objet">
+            <option value="info">Demande d'info complémentaire</option>
+            <option value="RDV">Proposition de RDV</option>
+            <option value="mission">Proposition de mission</option>  
+        </select>
+        <br>
+        <textarea name="" id="" cols="30" rows="5" placeholder="Message"></textarea> <br>
+        <input type="submit" value="Envoyer">
+    </form>
+    <video src="https://tech-me-up.net/formation/html5/video.mp4" loop autoplay muted></video> 
+</body>
+</html>

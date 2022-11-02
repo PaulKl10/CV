@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Site html</title>
+</head>
+<body>
+    <div class="block">
+    <img class="profil" src="photo.png" alt="photo">
+    <address>
+        <span class="nom">Paul Klein</span><br>
+        Villeurbanne <br>
+        25 ans <br>
+        <a href="mailto:paul.klein43@gmail.com ">paul.klein43@gmail.com </a> <br>
+        06 47 73 49 16
+    </address>
+    <h1>Curriculum Vitae</h1>
+
+    <blockquote>
+        <q>Developpeur Web et Web Mobile</q>
+    </blockquote>
+
+    <h2>Outils et languages techniques</h2>
+    <p><span class="date">Front-End: </span>HTML, CSS et JS/Angular</p>
+    <p><span class="date">Back-End: </span>PHP/Symfony, C#</p>
+    <p><span class="date">CMS: </span>Wordpress</p>
+
+    <h2>Formation</h2>
+
+    <table>
+        <tr>
+            <th>Année</th>
+            <th>Ecole</th>
+            <th>Description</th>
+        </tr>
+        <tr>
+            <td>2019</td>
+            <td>IFC</td>
+            <td>BTS MUC</td>
+        </tr>
+        <tr>
+            <td>2022</td>
+            <td>IFPA</td>
+            <td>Initiation codage</td>
+        </tr>
+        <tr>
+            <td>2022-2023</td>
+            <td>Human Booster</td>
+            <td>Développeur Web et Web Mobile</td>
+        </tr>
+    </table>
+
+    <h2>Expériences professionnelles</h2>
+
+       
+        <p><span class="date"> 2019-2021:</span>  Interim</p>
+        
+        <p><span class="date"> 2021-2022:</span>  Bilan d'orientation professionnel</p>
+    <h2>Centres d'intérets</h2>
+<div class="centre">
+    <ul type="circle">
+        <li>Football <img class="image" src="foot.png" alt="foot"> </li>
+        <li>Basketball <img class="image" src="basket.png" alt="basket"></li>   
+    </ul>
+    <ul type="circle">
+        <li>Jeux video <img class="image" src="manette.png" alt="manette"></li>
+        <li>Science <img class="image" src="atome.png" alt="manette"></li>
+    </ul>
+</div>
+    <h2>Compétences linguistiques</h2>
+    <div class="grid">
+        <img class="drapeau" src="espagne.png" alt="espagne">
+        <img class="drapeau" src="uk.jpg" alt="uk">
+        <p class="B12">B1</p>
+        <p class="B12">B2</p>
+    </div>
+
+<button onclick="fonction()">Cliquer ici</button> 
+
+<video src="https://tech-me-up.net/formation/html5/video.mp4"  autoplay muted></video> 
+
+<a id="contact" href="contact.html">Me contacter</a>
+</div>
+<script>
+ function fonction(){
+        document.body.innerHTML = "<p class='pre'>Embauchez moi svp!</p><video src='https://tech-me-up.net/formation/html5/video.mp4'  autoplay muted></video> ";
+    }
+</script>
+</body>
+</html>

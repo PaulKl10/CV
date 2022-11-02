@@ -1,0 +1,185 @@
+body{
+    color: white;
+    margin: auto;
+    width: 500px;
+    background-color: rgb(92, 3, 92);
+    
+}
+
+.block{
+    margin-left: 3rem;
+    margin-bottom: 3rem;
+}
+
+h1{
+    color: rgb(195, 76, 250);
+    text-shadow: 1px 2px 3px black;
+    margin-top: 2rem;
+}
+
+blockquote{
+    -webkit-text-stroke: 0.5px black;
+    font-size: 2rem;
+    margin-top: -1rem;
+    color: rgb(255, 0, 0);
+}
+
+address{
+    box-shadow: 4px 1px 8px 4px black;
+    width: 45%;
+    padding-left: 0.4rem;
+    margin-top: 2.7rem;
+    font-size: 1.2rem;
+    border-radius: 15px;
+    
+}
+
+.pre{
+    font-size: 1rem;
+    text-align: center;
+    font-weight: bold;
+    color: red;
+    animation: rota 10s ease infinite ;
+}
+
+h2{
+    color: rgb(207, 108, 27);
+    text-shadow: 1px 2px 3px black;
+    font-size: 2rem;
+}
+
+button{
+    width: 10rem;
+    font-size: 2rem;
+    cursor: pointer;
+    border-radius: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: purple;
+    color: white;
+    box-shadow: 2px 4px 4px black;
+}
+
+
+button:hover{
+    background-color: pink;
+    color: black;
+    box-shadow: 3px 8px 8px black;
+}
+
+
+@keyframes rota {
+    50%{ transform: scale(3) translateY(7rem) rotate(1080deg);}
+    
+}
+
+table, td, th{
+    border: 1px solid black;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 1px 2px 1px black;
+}
+
+th{
+    background-color: rgb(0, 89, 255);
+    color: white;
+}
+
+.profil{
+    position:absolute;
+    width: 10rem;
+    top: 5%;
+    left: 55%;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px 1px black;
+
+}
+
+video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: fixed;
+    opacity: 0.7;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+    box-shadow: 3px 8px 8px black;
+}
+
+#contact{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(207, 108, 27);
+    text-align: center;
+    padding: 1px 9px;
+    font-size: 2rem;
+    border-radius: 15px;
+    border: 2px solid black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-shadow: 2px 4px 4px black;
+}
+
+
+
+#contact:hover{
+    background-color: rgb(248, 44, 17);
+    color: black;
+    box-shadow: 3px 8px 8px black;
+}
+
+.date{
+    font-weight: bold;
+    color: rgb(220, 44, 255);
+    -webkit-text-stroke: 1px black;
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 1px 2px 3px black
+}
+.nom{
+    font-weight: bold;
+    color: pink;
+    -webkit-text-stroke: 1px black;
+    font-size: 2rem;
+}
+
+p{
+    font-size: 1.2rem;
+}
+
+ul{
+    font-size: 1.4rem;
+    margin-top: -1rem;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 13rem 6rem;
+    grid-template-rows: 1rem 6rem;
+    margin-left: 2rem;
+
+}
+.drapeau{
+    width: 4rem;
+    align-self: center;
+    justify-content: center;
+}
+
+.B12{
+    font-size: 2rem;
+    margin-left: 1.0001rem;
+}
+
+.image{
+    height: 1.5rem ;
+    margin-top: 1rem;
+}
+
+.centre{
+    display: flex;
+}
